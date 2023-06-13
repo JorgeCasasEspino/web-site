@@ -194,8 +194,8 @@ form label, form legend{
     margin:20px 0;
 }
 .enviar{
-    width: 30%;
-    padding:  15px 0;
+    width: 39%;
+    padding:  12px 0;
     font-size:18px;
     font-weight: bold;
     color:white;
@@ -319,10 +319,35 @@ td, th{
     nav{
         position: static;
     }
-    .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video, .container{
+    .caja, .mapa-contenido, .contenido-diferenciales, .video, .container{
         width: auto;
+    }
+    .principal{
+        width: auto;
+        text-align: center;
     }
     .lista-diferenciales, .imagen-diferenciales{
         width: 100%;
     }
+   .productos{
+    position:static;
+    width: 88%;
+    margin: 10px 0 40px 15px;
+    padding: 2px 0 0 0;
+    
+   }
+   .imagen-descrpcion{
+    width: 50px;
+    height: 32px;
 }
+   .productos h2{
+    font-size: 8px;
+    font-weight:bold;
+   }
+   .producto-descripcion{
+    font-size: 5px;
+    font-weight:bold;
+   }
+   
+   }
+
