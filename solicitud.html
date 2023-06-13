@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Formato de solicitud</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    </head>
+    
+    <body>
+        <header>
+            <div class="caja">
+                <h1> <img src="imagenes/Logo2.jpeg" width="350" height="150" alt="Logo de la empresa"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="asesores.html">Asesores</a></li>
+                        <li><a href="solicitud.html">Formato de solicitud</a></li>
+                        <li><a href="faqs.html">FAQS</a></li>
+                    </ul>
+                </nav>               
+            </div>
+            
+        
+        </header>
+        <main>
+            <form class="contac"> 
+                <label for="nombreapellido">Nombre y Apellido</label>
+                <input type="text" id="nombreapellido" class="input-padron" required> 
+                <label for="correoelectronico">Correo Electrónico</label>
+                <input type="email" id="correoelectronico" class="input-padron"  required placeholder="email@dominio.com">
+            
+                <label for="tel">Teléfono</label>
+                <input type="text" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+                
+                <label for="mensaje">Alguna nota que desee agregar</label>
+                
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron"></textarea>
+                 
+                
+                <fieldset> 
+                    <legend>¿Como le gustaría que lo contactemos?</legend>
+                    
+                    <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+
+                    <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                                
+                    <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+
+                    </fieldset>  
+                    <br>
+                <fieldset>
+                    <legend>¿En cúal horario prefiere ser atendido?</legend>
+                    <select class="selop">
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Selecciona el asesor que se adecúa a tus necesidades</legend>
+                    <select class="selop">
+                        <option>Ricardo Molina Vázquez</option>
+                        <option>Marta Leticia Rodríguez Cantú</option>
+                        <option>Leonor Castillo Sepulveda</option>
+                        <option>Emanuel Guitiérrez Najera</option>
+                        <option>Ernesto de la Torre Jiménez</option>
+                    </select>
+                </fieldset>
+                <br>
+
+                <input type="submit" value="Enviar solicitud" class="enviar"> 
+            </form>
+            <br>
+            <h2 class="tab" align="center">Horario en que su solicitud será atendida</h2>
+            <br><br>
+            <table style="margin:0 auto;">
+                <thead> 
+                    <tr> 
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody align="center">
+                    
+                    <tr> 
+                        <td>Lunes</td>
+                        <td>08 - 20h</td>
+                    </tr>
+                    <tr> 
+                        <td>Martes</td>
+                        <td>08 - 20h</td>
+                    </tr>
+                    <tr> 
+                        <td>Miercoles</td>
+                        <td>08 - 20h</td>
+                    </tr>
+                    <tr> 
+                        <td>Jueves</td>
+                        <td>08 - 20h</td>
+                    </tr>
+                    <tr> 
+                        <td>Viernes</td>
+                        <td>08 - 20h</td>
+                    </tr>
+                    
+                </tbody>                                                 
+            </table>
+        </main>
+        <footer>
+            <img src="imagenes/logo1.jpeg" alt="Logo de la empresa" width="100" height="100">
+            <p class="copyright">&copy Los kawaUanes - 2023</p><br>
+            <p>Autores: Jorge Casas, Jose Lira, Santos Campos</p>
+        </footer>
+    </body>
