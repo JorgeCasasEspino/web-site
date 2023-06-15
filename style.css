@@ -363,14 +363,18 @@ td, th{
     padding: 10px 25px;
     width: 98%;
     }
-
     .productos li:hover h2{ 
-    font-size: 18px;
+    font-size: 75%;
     }
-
+        
     .producto-descripcion:hover{
-    font-size: 50%;
+    font-size: 75%;
     font-weight:bold;
-    }    
+       
+    }  
+    .imagen-descrpcion:hover{
+    width: 100%;
+    height: 100%;
+    }
    }
 
